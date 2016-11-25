@@ -1,0 +1,2 @@
+module Maestros::VulnerabilidadesHelper
+end

@@ -1,0 +1,304 @@
+[ 2016-10-31 21:06:13.9199 5586/7fbd273fe740 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-10-31 21:06:13.9497 5589/7fb00030e740 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-10-31 21:06:13.9567 5589/7fb00030e740 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-10-31 21:06:13.9748 5589/7fb00030e740 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 5589
+[ 2016-10-31 21:06:14.0361 5597/7f578b474740 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-10-31 21:06:14.0534 5597/7f578b474740 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 5597
+App 5633 stdout: 
+App 5657 stdout: 
+App 5657 stdout: index
+App 5657 stdout: index
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+App 5657 stdout: index XD
+
+
+[ 2016-10-31 21:28:15.0696 5589/7faffe246700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-10-31 21:28:15.0696 5597/7f5789586700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-10-31 21:28:15.0697 5589/7fb00030e740 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-10-31 21:28:15.0697 5597/7f578b474740 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-10-31 21:28:15.0697 5589/7fb00030e740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 5657, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 21:28:15.0697 5597/7f5789586700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-10-31 21:28:15.0698 5597/7f5788d85700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-10-31 21:28:15.0698 5597/7f5788d85700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-10-31 21:28:15.0698 5589/7faffd9c4700 Ser/Server.h:817 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-10-31 21:28:15.0698 5589/7faffd9c4700 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2016-10-31 21:28:15.0699 5589/7faffd142700 Ser/Server.h:817 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-10-31 21:28:15.0700 5589/7faffd142700 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2016-10-31 21:28:15.0701 5589/7faffe246700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-10-31 21:28:15.0701 5589/7faffe246700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-10-31 21:28:15.0701 5597/7f578b474740 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-10-31 21:28:15.0701 5589/7faff7fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-10-31 21:28:15.0702 5589/7faff7fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-10-31 21:28:15.0701 5589/7faffc8c0700 Ser/Server.h:817 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-10-31 21:28:15.0702 5589/7faffc8c0700 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2016-10-31 21:28:15.0711 5589/7fb00030e740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 5657, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 21:28:15.3602 5589/7fb00030e740 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2016-10-31 21:28:26.5868 7421/7f38d74a5740 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-10-31 21:28:26.5938 7424/7fd183d9a740 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-10-31 21:28:26.5939 7424/7fd183d9a740 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-10-31 21:28:26.5958 7424/7fd183d9a740 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 7424
+[ 2016-10-31 21:28:26.6018 7432/7f6eea1b5740 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-10-31 21:28:26.6023 7432/7f6eea1b5740 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 7432
+App 7469 stdout: 
+App 7469 stdout: 
+[ 2016-10-31 21:28:30.2415 7424/7fd18024a700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/pepe/Documentos/ruby/cms: An error occurred while starting up the preloader.
+  Error ID: a4816fb0
+  Error details saved to: /tmp/passenger-error-WYSEyC.html
+  Message from application: There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/uglifier-3.0.3/lib/uglifier.rb:5:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/uglifier-3.0.3/lib/uglifier.rb:5:in `<top (required)>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:91:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `each'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `block in require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `each'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler.rb:106:in `require'
+/home/pepe/Documentos/ruby/cms/config/application.rb:7:in `<top (required)>'
+/home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `require_relative'
+/home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `<top (required)>'
+config.ru:3:in `require_relative'
+config.ru:3:in `block in <main>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `instance_eval'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `eval'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `each'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `block in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `each'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler.rb:106:in `require'
+  /home/pepe/Documentos/ruby/cms/config/application.rb:7:in `<top (required)>'
+  /home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `require_relative'
+  /home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `<top (required)>'
+  config.ru:3:in `require_relative'
+  config.ru:3:in `block in <main>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `instance_eval'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `eval'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-10-31 21:28:30.2484 7424/7fd181cd2700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is a4816fb0. Please see earlier logs for details about the error.
+[ 2016-10-31 21:28:30.2484 7424/7fd181450700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 2-1] Cannot checkout session because a spawning error occurred. The identifier of the error is a4816fb0. Please see earlier logs for details about the error.
+App 7490 stdout: 
+App 7490 stdout: 
+[ 2016-10-31 21:28:36.2445 7424/7fd18024a700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/pepe/Documentos/ruby/cms: An error occurred while starting up the preloader.
+  Error ID: c15f86bf
+  Error details saved to: /tmp/passenger-error-u9LOYw.html
+  Message from application: There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/uglifier-3.0.3/lib/uglifier.rb:5:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/uglifier-3.0.3/lib/uglifier.rb:5:in `<top (required)>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:91:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `each'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `block in require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `each'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler.rb:106:in `require'
+/home/pepe/Documentos/ruby/cms/config/application.rb:7:in `<top (required)>'
+/home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `require_relative'
+/home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `<top (required)>'
+config.ru:3:in `require_relative'
+config.ru:3:in `block in <main>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `instance_eval'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `eval'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `each'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `block in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `each'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler.rb:106:in `require'
+  /home/pepe/Documentos/ruby/cms/config/application.rb:7:in `<top (required)>'
+  /home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `require_relative'
+  /home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `<top (required)>'
+  config.ru:3:in `require_relative'
+  config.ru:3:in `block in <main>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `instance_eval'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `eval'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-10-31 21:28:36.2520 7424/7fd180bce700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 3-1] Cannot checkout session because a spawning error occurred. The identifier of the error is c15f86bf. Please see earlier logs for details about the error.
+App 7530 stdout: 
+App 7530 stdout: 
+[ 2016-10-31 21:29:44.9433 7424/7fd18024a700 age/Cor/App/Implementation.cpp:304 ]: Could not spawn process for application /home/pepe/Documentos/ruby/cms: An error occurred while starting up the preloader.
+  Error ID: 61015e19
+  Error details saved to: /tmp/passenger-error-mnxz2K.html
+  Message from application: There was an error while trying to load the gem 'uglifier'.
+Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
+Backtrace for gem load error is:
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/execjs-2.7.0/lib/execjs.rb:4:in `<top (required)>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/uglifier-3.0.3/lib/uglifier.rb:5:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/uglifier-3.0.3/lib/uglifier.rb:5:in `<top (required)>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:91:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:91:in `block (2 levels) in require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `each'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `block in require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `each'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `require'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler.rb:106:in `require'
+/home/pepe/Documentos/ruby/cms/config/application.rb:7:in `<top (required)>'
+/home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `require_relative'
+/home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `<top (required)>'
+config.ru:3:in `require_relative'
+config.ru:3:in `block in <main>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `instance_eval'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `eval'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+/home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+Bundler Error Backtrace:
+ (Bundler::GemRequireError)
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:94:in `rescue in block (2 levels) in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:90:in `block (2 levels) in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `each'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:86:in `block in require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `each'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler/runtime.rb:75:in `require'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bundler-1.13.6/lib/bundler.rb:106:in `require'
+  /home/pepe/Documentos/ruby/cms/config/application.rb:7:in `<top (required)>'
+  /home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `require_relative'
+  /home/pepe/Documentos/ruby/cms/config/environment.rb:2:in `<top (required)>'
+  config.ru:3:in `require_relative'
+  config.ru:3:in `block in <main>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `instance_eval'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `eval'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:110:in `preload_app'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:156:in `<module:App>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:30:in `<module:PhusionPassenger>'
+  /home/pepe/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/passenger-5.0.30/src/helper-scripts/rack-preloader.rb:29:in `<main>'
+
+
+[ 2016-10-31 21:29:44.9496 7424/7fd15bfff700 age/Cor/Con/CheckoutSession.cpp:285 ]: [Client 4-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 61015e19. Please see earlier logs for details about the error.
+App 7561 stdout: 
+App 7583 stdout: 
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 8138 stdout: 
+App 8163 stdout: 
+App 7583 stdout: index XD
+App 8193 stdout: 
+App 7583 stdout: index XD
+App 8571 stdout: 
+App 7583 stdout: index XD
+App 7583 stdout: index XD
+App 8622 stdout: 
+[ 2016-10-31 21:51:33.9723 7424/7fd183d36700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8193, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 21:51:33.9725 7424/7fd183d36700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8571, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 21:51:33.9750 7424/7fd183d36700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 7583, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 21:51:33.9755 7424/7fd183d36700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8163, application /home/pepe/Documentos/ruby/cms/public (development)
+App 8622 stdout: index XD
+App 8622 stdout: index XD
+App 17981 stdout: 
+App 18003 stdout: 
+App 8622 stdout: index XD
+App 8622 stdout: index XD
+App 8622 stdout: index XD
+App 8622 stdout: index XD
+App 8622 stdout: index XD
+App 8622 stdout: index XD
+[ 2016-10-31 22:21:33.9703 7424/7fd183d36700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8622, application /home/pepe/Documentos/ruby/cms/public (development)
+App 18003 stdout: index XD
+App 18430 stdout: 
+App 18456 stdout: 
+App 18003 stdout: index XD
+App 18003 stdout: 1 +++++++++++++++++++++++++++++++++++++++
+App 18003 stdout: 1 +++++++++++++++++++++++++++++++++++++++
+App 18003 stdout: 1 +++++++++++++++++++++++++++++++++++++++
+App 18003 stdout: 1 +++++++++++++++++++++++++++++++++++++++
+App 18003 stdout: 1 +++++++++++++++++++++++++++++++++++++++
+App 18003 stdout: 1 +++++++++++++++++++++++++++++++++++++++
+
+[ 2016-10-31 22:25:30.5763 7424/7fd181cd2700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-10-31 22:25:30.5764 7424/7fd183d9a740 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-10-31 22:25:30.5764 7424/7fd183d9a740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 18003, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 22:25:30.5764 7424/7fd183d9a740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 18456, application /home/pepe/Documentos/ruby/cms/public (development)
+
+[ 2016-10-31 22:25:30.5766 7432/7f6ee3fff700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-10-31 22:25:30.5767 7432/7f6eea1b5740 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-10-31 22:25:30.5767 7424/7fd181cd2700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-10-31 22:25:30.5768 7424/7fd181cd2700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-10-31 22:25:30.5768 7432/7f6ee37fe700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-10-31 22:25:30.5768 7432/7f6ee37fe700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-10-31 22:25:30.5769 7424/7fd180bce700 Ser/Server.h:817 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-10-31 22:25:30.5769 7424/7fd180bce700 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2016-10-31 22:25:30.5769 7432/7f6ee3fff700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-10-31 22:25:30.5770 7424/7fd15bfff700 Ser/Server.h:817 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-10-31 22:25:30.5770 7424/7fd15bfff700 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2016-10-31 22:25:30.5770 7424/7fd181450700 Ser/Server.h:817 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-10-31 22:25:30.5771 7424/7fd181450700 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2016-10-31 22:25:30.5772 7432/7f6eea1b5740 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-10-31 22:25:30.5773 7424/7fd15b7fe700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-10-31 22:25:30.5773 7424/7fd15b7fe700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-10-31 22:25:30.5774 7424/7fd183d9a740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 18003, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 22:25:30.5774 7424/7fd183d9a740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 18456, application /home/pepe/Documentos/ruby/cms/public (development)
+[ 2016-10-31 22:25:30.8402 7424/7fd183d9a740 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
