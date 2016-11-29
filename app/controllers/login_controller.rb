@@ -15,8 +15,8 @@ class LoginController < ApplicationController
   def acceder
       usuario = params[:usuario]
       contrasenia = params[:contrasenia]
-      rpta = post(Url.service('accesos') + "usuario/existe/" + usuario + "/" + contrasenia)
-      if rpta.to_str  == "si"
+      rpta = post(Url.service('accesos') + "usuario/validar?usuario=" + usuario + "&contrasenia=" + AesEncryptDecrypt.encryption(contrasenia))  
+      if rpta.to_str  == "1"
           session[:estado] = 'autenticado'
           session[:usuario] = usuario
           session[:tiempo] = Time.now.strftime('%Y-%m-%d %H:%M:%S')

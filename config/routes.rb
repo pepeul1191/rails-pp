@@ -1,29 +1,32 @@
 Rails.application.routes.draw do
-  root 'login#index'
+    root 'login#index'
 
-  get 'demo/index'
-  get 'demo/ulima'
-  get 'demo' , to: 'demo#index'
+    get 'demo/index'
+    get 'demo/ulima'
+    get 'demo' , to: 'demo#index'
 
-  get 'error/access/:id', to: 'error#access'
+    get 'error/access/:id', to: 'error#access'
 
-  get 'home', to: 'home#index'
+    get 'home', to: 'home#index'
 
-  get 'login', to: 'login#index'
-  post 'login/acceder' => 'login#acceder'
-  get 'login/ver'
-  get 'login/cerrar'
+    get 'login', to: 'login#index'
+    post 'login/acceder' => 'login#acceder'
+    get 'login/ver'
+    get 'login/cerrar'
 
-  get '/accesos/menu' => 'accesos/menu#index'
-  get '/accesos/menu/menu_modulos' => 'accesos/menu#menu_modulos'
+    get '/accesos' => 'accesos#index'
+    get '/accesos/menus' => 'accesos/menu#index'
+    get '/accesos/roles' => 'accesos/rol#index'
+    get '/accesos/permisos' => 'accesos/permiso#index'
+    get '/accesos/menu/menu_modulos' => 'accesos/menu#menu_modulos'
 
-  get '/maestros/vulnerabilidades' => 'maestros/vulnerabilidades#index'
-  get '/maestros/vulnerabilidades/nuevo' => 'maestros/vulnerabilidades#nuevo'
+    get '/maestros/vulnerabilidades' => 'maestros/vulnerabilidades#index'
+    get '/maestros/vulnerabilidades/nuevo' => 'maestros/vulnerabilidades#nuevo'
 
-  #namespace "/maestros" do
-    #resources :vulnerabilidades
-  #end
+    #namespace "/maestros" do
+      #resources :vulnerabilidades
+    #end
 
-  #match 'controller(/:action(/:id))', :via => :get
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+    #match 'controller(/:action(/:id))', :via => :get
+    # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

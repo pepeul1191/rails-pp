@@ -1,21 +1,10 @@
 module ApplicationHelper
     def load_css
         rpta = ''
-        if defined? @statics.public_css
-           @statics.public_css.each do |n|
-               temp = '<link href="' + Statics.url + "assets/site/css/" + n + '.css" rel="stylesheet"/>'
+        if defined? @css
+           @css.each do |n|
+               temp = '<link href="' + Statics.url + n + '.css" rel="stylesheet"/>'
                rpta = rpta + temp
-           end
-       end
-        if defined? @statics.css
-           @statics.css.each do |n|
-               if @statics.modulo
-                   temp = '<link href="' + Statics.url + 'assets/' +  @statics.modulo + '/' + @statics.controlador + '/css/' + n + '.css" rel="stylesheet" type="text/css" >'
-                   rpta = rpta + temp
-               else
-                   temp = '<link href="' + Statics.url + 'assets/' + @statics.controlador + '/css/' + n + '.css" rel="stylesheet" type="text/css"  />'
-                   rpta = rpta + temp
-               end
            end
        end
        rpta.html_safe
@@ -23,46 +12,45 @@ module ApplicationHelper
 
     def load_js
         rpta = ''
-        if defined? @statics.public_js
-           @statics.public_js.each do |n|
-               temp = '<script src="' + Statics.url + "assets/site/js/" + n + '.js" type="text/javascript"></script>'
+        if defined? @js
+           @js.each do |n|
+               temp = '<script src="' + Statics.url + n + '.js" type="text/javascript"></script>'
                rpta = rpta + temp
-           end
-       end
-        if defined? @statics.js
-           @statics.js.each do |n|
-               if @statics.modulo
-                   temp = '<script src="' + Statics.url + 'assets/' +  @statics.modulo + '/' + @statics.controlador + '/js/' + n + '.js" type="text/javascript"></script>"'
-                   rpta = rpta + temp
-               else
-                   temp = '<script src="' + Statics.url + 'assets/' + @statics.controlador + '/js/' + n + '.js" type="text/javascript"></script>'
-                   rpta = rpta + temp
-               end
            end
        end
        rpta.html_safe
     end
 
     def menu_izquierdo(modulo)
-        response = HTTParty.get(URI.encode(Url.service(modulo.downcase) + "menu/accesos_modulo/" + modulo.to_s))
+        response = HTTParty.get(URI.encode(Url.service('accesos') + "item/listar/menu/" + modulo.to_s))
         rpta = response.body
-        menu = JSON.parse(rpta)
-        descripcion = menu["descripcion"]
-        subtitulos = menu["subtitulos"]
-        rpta = "<p>" + descripcion + "</p>"
+        menus_izq = JSON.parse(rpta)
+        rpta = ""
 
-        for subtitulo in subtitulos
-          nombre_subtitulo = subtitulo["nombre"]
-          icono_subtitulo = subtitulo["icono"]
-          items = subtitulo["items"]
-          rpta = rpta + "<p><i class='" + icono_subtitulo + " icono-menu' aria-hidden='true'></i>" + nombre_subtitulo + "</p><ul>"
-          for item in items
-             #<li><a href="'tesis/alumno">Ver lista de usuarios</a></li>
-             url_item = item["url"]
-             nombre_item = item["nombre"]
-             rpta = rpta + "<li><a href='"+ Url.base_url + url_item + "'>" + nombre_item + "</a></li>"
-          end
-          rpta = rpta + "</ul>"
+        for menu in menus_izq
+            rpta = rpta + "<h5>" + menu['subtitulo'] + "</h5>"
+            rpta = rpta + "<ul>"
+            for item in menu['items']
+                rpta = rpta + "<li><a href='"+ Url.base_url + item['url'] + "'>" + item['item'] + "</a></li>"
+            end
+            rpta = rpta + "</ul>"
+        end
+        
+        rpta.html_safe
+    end
+
+    def menu_modulos(modulo)
+        response = HTTParty.get(URI.encode(Url.service('accesos') + "modulo/listar"))
+        rpta = response.body
+        menus_hor = JSON.parse(rpta)
+        rpta = ""
+
+        for menu in menus_hor
+            if modulo == menu['nombre']
+              rpta = rpta + "<li class='activo'><a href='" + Url.base_url + menu['url'] + "'>" + menu['nombre']+ "</a></li>"
+            else
+              rpta = rpta + "<li><a href='" + Url.base_url + menu['url'] + "'>" + menu['nombre']+ "</a></li>"
+            end
         end
         
         rpta.html_safe

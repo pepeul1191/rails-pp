@@ -1,7 +1,8 @@
 class AccesosController < ApplicationController
-    def index
-        rpta = 'AccesosController#index'
-        render :text => rpta
+    def index        
+		logeado
+      	tiempo
+      	@modulo = 'Accesos'
     end
 
     def menu
