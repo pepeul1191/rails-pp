@@ -1,0 +1,2 @@
+module Accesos::PermisoHelper
+end

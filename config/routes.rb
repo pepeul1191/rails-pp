@@ -16,12 +16,20 @@ Rails.application.routes.draw do
 
     get '/accesos' => 'accesos#index'
     get '/accesos/menus' => 'accesos/menu#index'
+    get '/accesos/modulo/listar' => 'accesos/modulo#listar'
+    post '/accesos/modulo/guardar' => 'accesos/modulo#guardar'
+    get '/accesos/subtitulo/listar/:modulo_id' => 'accesos/subtitulo#listar'
+    post '/accesos/subtitulo/guardar' => 'accesos/subtitulo#guardar'
+    get '/accesos/item/listar/:subtitulo_id' => 'accesos/item#listar'
+    post '/accesos/item/guardar' => 'accesos/item#guardar'
     get '/accesos/roles' => 'accesos/rol#index'
     get '/accesos/permisos' => 'accesos/permiso#index'
     get '/accesos/menu/menu_modulos' => 'accesos/menu#menu_modulos'
 
     get '/maestros/vulnerabilidades' => 'maestros/vulnerabilidades#index'
     get '/maestros/vulnerabilidades/nuevo' => 'maestros/vulnerabilidades#nuevo'
+
+    get '/seguridad' => 'home#index'
 
     #namespace "/maestros" do
       #resources :vulnerabilidades

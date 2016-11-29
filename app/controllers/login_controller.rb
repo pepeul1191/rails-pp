@@ -6,7 +6,7 @@ class LoginController < ApplicationController
           redirect_to Url.base_url + 'home'
       else
           @statics = Statics.new(false, 'login')
-          @statics.set_css(['index'])
+          @css = ['assets/login/css/index']
           @title = 'Login'
           render 'index'
       end

@@ -21,6 +21,7 @@ class ErrorController < ApplicationController
         @statics = Statics.new(false, 'error')
         @statics.set_css(['access'])
         @title = 'Error de Acceso ' + numero_error.to_str
+        @css = ['assets/error/css/access']
         @datos = JSON.parse(error.to_json)
 
         render 'access'

@@ -1,6 +1,6 @@
 class Accesos::ItemController < ApplicationController
-    def index
-        rpta = 'ItemController#AccesosController#index'
-        render :text => rpta
+    def listar
+       subtitulo_id = params[:subtitulo_id]
+		render :text => get(Url.service('accesos') + "item/listar/" + subtitulo_id.to_s)
     end
 end

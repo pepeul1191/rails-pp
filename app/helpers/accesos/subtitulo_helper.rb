@@ -1,0 +1,2 @@
+module Accesos::SubtituloHelper
+end
