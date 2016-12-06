@@ -8,10 +8,6 @@ class Accesos::SubtituloController < ApplicationController
 
 	def guardar
 		data = params[:data]
-		puts "1 ++++++++++++++++++++++++++++++++++++++"
-		puts Url.service('accesos') + "subtitulo/guardar?data=" + data
-		post(Url.service('accesos') + "subtitulo/guardar?data=" + data)
-		puts "2 ++++++++++++++++++++++++++++++++++++++"
-		"XD"
+		render :text => post(Url.service('accesos') + "subtitulo/guardar?data=" + data)
 	end
 end

@@ -1,6 +1,6 @@
 class Accesos::MenuController < ApplicationController
     def index
-    	logeado
+    	#logeado
       	tiempo
 		@modulo = 'Accesos'
       	@css = ['swp/css/mootools.grid']
