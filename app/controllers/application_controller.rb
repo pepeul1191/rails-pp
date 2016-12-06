@@ -1,6 +1,10 @@
 class ApplicationController < ActionController::Base
   #protect_from_forgery with: :exception
 
+  def not_found
+      redirect_to Url.base_url + 'error/access/404'
+  end
+
   private
   def get(url)
       response = HTTParty.get(URI.encode(url))

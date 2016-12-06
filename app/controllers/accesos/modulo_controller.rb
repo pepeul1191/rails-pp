@@ -6,6 +6,7 @@ class Accesos::ModuloController < ApplicationController
 	end
 
 	def guardar
-		
+		data = params[:data]
+		render :text => post(Url.service('accesos') + "modulo/guardar?data=" + data)
 	end
 end

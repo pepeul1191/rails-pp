@@ -29,10 +29,18 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+#Servidor Passenger
 gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
+# $ bundle exec passenger start
+
+#Servidor Puma
+#gem 'puma', '~> 3.0'
+# $ rails s Puma
+
 gem 'httparty'
 gem 'json'
-#bundle exec passenger start
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
