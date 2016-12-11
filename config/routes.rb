@@ -24,6 +24,11 @@ Rails.application.routes.draw do
     post '/accesos/item/guardar' => 'accesos/item#guardar'
     get '/accesos/roles' => 'accesos/rol#index'
     get '/accesos/permisos' => 'accesos/permiso#index'
+    get '/accesos/permiso/listar' => 'accesos/permiso#listar'
+    post '/accesos/permiso/guardar' => 'accesos/permiso#guardar'
+    get '/accesos/roles' => 'accesos/rol#index'
+    get '/accesos/rol/listar' => 'accesos/rol#listar'
+    post '/accesos/rol/guardar' => 'accesos/rol#guardar'
     get '/accesos/menu/menu_modulos' => 'accesos/menu#menu_modulos'
 
     get '/maestros/vulnerabilidades' => 'maestros/vulnerabilidades#index'

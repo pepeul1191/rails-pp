@@ -1,0 +1,39 @@
+[ 2016-12-10 22:08:30.4421 14091/7f32af443740 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2016-12-10 22:08:30.4589 14094/7f7fa8d16740 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2016-12-10 22:08:30.4648 14094/7f7fa8d16740 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2016-12-10 22:08:30.4726 14094/7f7fa8d16740 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 14094
+[ 2016-12-10 22:08:30.5416 14099/7f768c105740 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-12-10 22:08:30.5429 14099/7f768c105740 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 14099
+App 14139 stdout: 
+App 14179 stdout: 
+App 16430 stdout: 
+App 16464 stdout: 
+App 16510 stdout: 
+[ 2016-12-10 23:10:03.4555 14094/7f7fa8cd3700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 16464, application /home/pepe/Documentos/ruby/rails-pp/public (development)
+[ 2016-12-10 23:10:03.4684 14094/7f7fa8cd3700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 16510, application /home/pepe/Documentos/ruby/rails-pp/public (development)
+App 17207 stdout: 
+App 17235 stdout: 
+[ 2016-12-10 23:22:29.6784 14094/7f7fa8cd3700 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 17235, application /home/pepe/Documentos/ruby/rails-pp/public (development)
+
+
+[ 2016-12-10 23:26:09.1124 14094/7f7fa6c57700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-10 23:26:09.1124 14099/7f768a220700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-10 23:26:09.1125 14094/7f7fa8d16740 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-10 23:26:09.1125 14099/7f768c105740 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-10 23:26:09.1125 14094/7f7fa8d16740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 14179, application /home/pepe/Documentos/ruby/rails-pp/public (development)
+[ 2016-12-10 23:26:09.1126 14099/7f768a220700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-12-10 23:26:09.1126 14099/7f7689a1f700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-12-10 23:26:09.1127 14099/7f7689a1f700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-12-10 23:26:09.1133 14094/7f7fa6c57700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-12-10 23:26:09.1133 14094/7f7fa52d1700 Ser/Server.h:817 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2016-12-10 23:26:09.1133 14099/7f768c105740 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-12-10 23:26:09.1133 14094/7f7fa6c57700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-12-10 23:26:09.1134 14094/7f7fa52d1700 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2016-12-10 23:26:09.1135 14094/7f7fa5b53700 Ser/Server.h:817 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2016-12-10 23:26:09.1136 14094/7f7fa5b53700 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2016-12-10 23:26:09.1137 14094/7f7fa63d5700 Ser/Server.h:817 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2016-12-10 23:26:09.1137 14094/7f7fa63d5700 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2016-12-10 23:26:09.1141 14094/7f7fa4a4f700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-12-10 23:26:09.1141 14094/7f7fa4a4f700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-12-10 23:26:09.1143 14094/7f7fa8d16740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 14179, application /home/pepe/Documentos/ruby/rails-pp/public (development)
+[ 2016-12-10 23:26:09.4071 14094/7f7fa8d16740 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
