@@ -21,6 +21,6 @@ class Accesos::PermisoController < ApplicationController
 
     def listar_asociados
        id_rol = params[:id]
-       render :text => post(Url.service('accesos') + "permiso/listar_asociados/" +id_rol)
+       render :text => get(Url.service('accesos') + "permiso/listar_asociados/" +id_rol)
     end
 end

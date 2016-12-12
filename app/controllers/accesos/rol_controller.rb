@@ -20,6 +20,7 @@ class Accesos::RolController < ApplicationController
 	end
 
     def asociar_permisos
-
+        data = params[:data]
+        render :text => post(Url.service('accesos') + "rol/ascociar_permisos?data=" + data)
     end
 end
