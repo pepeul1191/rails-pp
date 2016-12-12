@@ -26,9 +26,11 @@ Rails.application.routes.draw do
     get '/accesos/permisos' => 'accesos/permiso#index'
     get '/accesos/permiso/listar' => 'accesos/permiso#listar'
     post '/accesos/permiso/guardar' => 'accesos/permiso#guardar'
+    get '/accesos/permiso/listar_asociados' => 'accesos/permiso#listar_asociados/:id'
     get '/accesos/roles' => 'accesos/rol#index'
     get '/accesos/rol/listar' => 'accesos/rol#listar'
     post '/accesos/rol/guardar' => 'accesos/rol#guardar'
+    post '/accesos/rol/asociar_permisos' => 'accesos/rol#asociar_permisos'
     get '/accesos/menu/menu_modulos' => 'accesos/menu#menu_modulos'
 
     get '/maestros/vulnerabilidades' => 'maestros/vulnerabilidades#index'

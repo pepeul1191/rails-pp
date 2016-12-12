@@ -18,4 +18,8 @@ class Accesos::RolController < ApplicationController
 		data = params[:data]
 		render :text => post(Url.service('accesos') + "rol/guardar?data=" + data)
 	end
+
+    def asociar_permisos
+
+    end
 end
