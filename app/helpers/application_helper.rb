@@ -21,6 +21,28 @@ module ApplicationHelper
        rpta.html_safe
     end
 
+    def load_modal_css
+        rpta = ''
+        if defined? @modal_css
+           @modal_css.each do |n|
+               temp = '<link href="' + Statics.url + n + '.css" rel="stylesheet"/>'
+               rpta = rpta + temp
+           end
+       end
+       rpta.html_safe
+    end
+
+    def load_modal_js
+        rpta = ''
+        if defined? @modal_js
+           @modal_js.each do |n|
+               temp = '<script src="' + Statics.url + n + '.js" type="text/javascript"></script>'
+               rpta = rpta + temp
+           end
+       end
+       rpta.html_safe
+    end
+
     def menu_izquierdo(modulo)
         response = HTTParty.get(URI.encode(Url.service('accesos') + "item/listar/menu/" + modulo.to_s))
         rpta = response.body
