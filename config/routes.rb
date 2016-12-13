@@ -33,7 +33,13 @@ Rails.application.routes.draw do
     get '/accesos/subtitulo/listar/:modulo_id' => 'accesos/subtitulo#listar'
     post '/accesos/subtitulo/guardar' => 'accesos/subtitulo#guardar'
     get '/accesos/usuarios' => 'accesos/usuario#index'
+    get '/accesos/usuario/editar_usuario' => 'accesos/usuario#editar'
+    get '/accesos/usuario/ver_roles_permisos' => 'accesos/usuario#ver_roles_permisos'
     get '/accesos/usuario/listar' => 'accesos/usuario#listar'
+    get '/accesos/usuario/listar_permisos/:usuario_id' => 'accesos/usuario#listar_permisos'
+    get '/accesos/usuario/listar_roles/:usuario_id' => 'accesos/usuario#listar_roles'
+    post '/accesos/usuario/asociar_permisos' => 'accesos/usuario#asociar_permisos'
+    post '/accesos/usuario/asociar_roles' => 'accesos/usuario#asociar_roles'
     get '/accesos/usuario/ver_accesos' => 'accesos/usuario#ver_accesos'
     get '/accesos/usuario/listar_accesos/:usuario_id' => 'accesos/usuario#listar_accesos'
 
