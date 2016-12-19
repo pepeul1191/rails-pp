@@ -1,8 +1,11 @@
-<div class="jumbotron vertical-center">
-	<div class="container error">
-		<h1><i class="<%=@datos['icono']%>"></i>&nbsp;<%=@datos['numero']%></h1>
-		<h4><%=@datos['descripcion']%></h4>
-		<h5><%=@datos['mensaje']%></h5>
-		<h6><a href="<%=Url.base_url %>"><i class="fa fa-home" aria-hidden="true"></i> Ir al Inicio</a></h6>
-	</div>
+<div class="error-header"> </div>
+<div class="container ">
+	<section class="error-container text-center">
+		<h1><%=@datos['numero']%></h1>
+		<div class="error-divider">
+			<h2><%=@datos['mensaje']%></h2>
+			<p class="description"><%=@datos['descripcion']%></p>
+		</div>
+		<a href="<%=Url.base_url %>" class="return-btn"><i class="fa fa-home"></i>Ir al Inicio</a>
+	</section>
 </div>

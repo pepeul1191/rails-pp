@@ -18,6 +18,7 @@ class ErrorController < ApplicationController
         	error = {:numero => 404, :mensaje => 'Archivo no encontrado', :descripcion => 'La página que busca no se encuentra en el servidor', :icono => 'fa fa-exclamation-triangle'}
         end
 
+        @body_error = true
         @statics = Statics.new(false, 'error')
         @statics.set_css(['access'])
         @title = 'Error de Acceso ' + numero_error.to_str
