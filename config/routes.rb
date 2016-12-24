@@ -55,5 +55,5 @@ Rails.application.routes.draw do
     #match 'controller(/:action(/:id))', :via => :get
     # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-    get '*unmatched_route' => 'application#not_found'
+    #get '*unmatched_route' => 'application#not_found'
 end
