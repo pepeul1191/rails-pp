@@ -61,6 +61,26 @@ module ApplicationHelper
         rpta.html_safe
     end
 
+    def menu_submodulos(modulo)
+        response = HTTParty.get(URI.encode(Url.service('accesos') + "item/listar/menu/" + modulo.to_s))
+        rpta = response.body
+        menus_izq = JSON.parse(rpta)
+        rpta = '<ul class="modulos">'
+
+        for menu in menus_izq
+            rpta = rpta + "<h5>" + menu['subtitulo'] + "</h5>"
+            rpta = rpta + "<ul class='items'>"
+            for item in menu['items']
+                rpta = rpta + "<li><a href='"+ Url.base_url + item['url'] + "'>" + item['item'] + "</a></li>"
+            end
+            rpta = rpta + "</ul>"
+        end
+
+        rpta = rpta + "</ul>"
+        
+        rpta.html_safe
+    end
+
     def menu_modulos(modulo)
         response = HTTParty.get(URI.encode(Url.service('accesos') + "modulo/listar"))
         rpta = response.body
