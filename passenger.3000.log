@@ -104,3 +104,34 @@ App 7510 stdout:
 [ 2016-12-14 10:13:39.3336 7434/7f2327830740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 7503, application /home/pepe/Documentos/ruby/rails-pp/public (development)
 [ 2016-12-14 10:13:39.3337 7434/7f2327830740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 7510, application /home/pepe/Documentos/ruby/rails-pp/public (development)
 [ 2016-12-14 10:13:39.6273 7434/7f2327830740 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2017-01-18 12:30:37.9531 8687/7fea7fecf740 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2017-01-18 12:30:37.9632 8690/7f61d5767740 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2017-01-18 12:30:37.9638 8690/7f61d5767740 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2017-01-18 12:30:37.9671 8690/7f61d5767740 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 8690
+[ 2017-01-18 12:30:38.0185 8697/7fbe80515740 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2017-01-18 12:30:38.0343 8697/7fbe80515740 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 8697
+App 8733 stdout: 
+App 8783 stdout: 
+
+
+[ 2017-01-18 12:36:35.6557 8697/7fbe7e627700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-18 12:36:35.6557 8690/7f61d369f700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-01-18 12:36:35.6557 8697/7fbe80515740 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-18 12:36:35.6557 8690/7f61d5767740 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-01-18 12:36:35.6558 8690/7f61d5767740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8783, application /home/pepe/Documentos/ruby/rails-pp/public (development)
+[ 2017-01-18 12:36:35.6558 8697/7fbe7de26700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-01-18 12:36:35.6558 8697/7fbe7de26700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-01-18 12:36:35.6559 8690/7f61d259b700 Ser/Server.h:817 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2017-01-18 12:36:35.6559 8690/7f61d259b700 Ser/Server.h:464 ]: [ServerThr.3] Shutdown finished
+[ 2017-01-18 12:36:35.6560 8690/7f61d1497700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-01-18 12:36:35.6560 8690/7f61d1497700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2017-01-18 12:36:35.6561 8697/7fbe7e627700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2017-01-18 12:36:35.6561 8690/7f61d2e1d700 Ser/Server.h:817 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2017-01-18 12:36:35.6561 8690/7f61d369f700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2017-01-18 12:36:35.6561 8690/7f61d2e1d700 Ser/Server.h:464 ]: [ServerThr.2] Shutdown finished
+[ 2017-01-18 12:36:35.6561 8690/7f61d369f700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2017-01-18 12:36:35.6561 8690/7f61d1d19700 Ser/Server.h:817 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2017-01-18 12:36:35.6561 8690/7f61d1d19700 Ser/Server.h:464 ]: [ServerThr.4] Shutdown finished
+[ 2017-01-18 12:36:35.6562 8697/7fbe80515740 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2017-01-18 12:36:35.6562 8690/7f61d5767740 age/Cor/CoreMain.cpp:819 ]: Checking whether to disconnect long-running connections for process 8783, application /home/pepe/Documentos/ruby/rails-pp/public (development)
+[ 2017-01-18 12:36:35.9480 8690/7f61d5767740 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished

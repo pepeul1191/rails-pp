@@ -1,5 +1,5 @@
 class Statics
-  @url = 'http://localhost:8001/dashboard/'
+  @url = 'http://localhost:8001/dashboard-redmine/'
   @nombre_app = 'Aplicación con Rails'
 
   def initialize(modulo, controlador)
