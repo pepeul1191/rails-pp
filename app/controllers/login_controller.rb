@@ -14,8 +14,8 @@ class LoginController < ApplicationController
 
   def acceder
       usuario = params[:usuario]
-      contrasenia = params[:contrasenia]
-      rpta = post(Url.service('accesos') + "usuario/validar?usuario=" + usuario + "&contrasenia=" + AesEncryptDecrypt.encryption(contrasenia))  
+      contrasenia = post(Url.service('cipher') + 'encode?key=' + $cipher_key + '&texto=' + params[:contrasenia])
+      rpta = post(Url.service('accesos') + "usuario/validar?usuario=" + usuario + "&contrasenia=" + contrasenia)  
       if rpta.to_str  == "1"
           session[:estado] = 'autenticado'
           session[:usuario] = usuario

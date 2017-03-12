@@ -58,6 +58,10 @@ Rails.application.routes.draw do
 
     get '/seguridad' => 'home#index'
 
+    # demos
+    get 'demo/archivos' => 'demo/archivo#index'
+    post 'demo/archivo/upload' => 'demo/archivo#upload'
+
     #namespace "/maestros" do
       #resources :vulnerabilidades
     #end

@@ -1,9 +1,10 @@
 class Url
   @base_url = 'http://localhost:3000/'
   @services = { 
-  		'accesos' => 'http://localhost:5001/', 
-  		'acl' => 'http://localhost:3003/' 
-  	}
+    'accesos' => 'http://localhost:5001/', 
+    'acl' => 'http://localhost:3003/' ,
+    'cipher' => 'http://localhost:5000/'
+  }
 
   def self.base_url
       @base_url

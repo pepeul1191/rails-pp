@@ -1,8 +1,18 @@
 class ApplicationController < ActionController::Base
   #protect_from_forgery with: :exception
 
+  before_filter :set_header
+
+  def set_header
+      response.set_header('server', 'ruby')
+  end
+
   def not_found
       redirect_to Url.base_url + 'error/access/404'
+  end
+
+  def send_file(url, path_to_file)
+    RestClient.post(url, :name_of_file_param => File.new(path_to_file))
   end
 
   private
