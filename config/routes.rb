@@ -61,6 +61,7 @@ Rails.application.routes.draw do
     # demos
     get 'demo/archivos' => 'demo/archivo#index'
     post 'demo/archivo/upload' => 'demo/archivo#upload'
+    post 'demo/archivo/guardar' => 'demo/archivo#guardar'
 
     #namespace "/maestros" do
       #resources :vulnerabilidades

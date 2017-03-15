@@ -5,6 +5,10 @@ class ApplicationController < ActionController::Base
 
   def set_header
       response.set_header('server', 'ruby')
+      response.set_header('Access-Control-Allow-Origin', '*')
+      response.set_header('Access-Control-Allow-Methods', 'POST, PUT, DELETE, GET, OPTIONS')
+      response.set_header('Access-Control-Request-Method', '*')
+      response.set_header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
   end
 
   def not_found
@@ -12,7 +16,7 @@ class ApplicationController < ActionController::Base
   end
 
   def send_file(url, path_to_file)
-    RestClient.post(url, :name_of_file_param => File.new(path_to_file))
+    RestClient.post(url, :file => File.new(path_to_file))
   end
 
   private

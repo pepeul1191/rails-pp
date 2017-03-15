@@ -1,4 +1,82 @@
+<div class="row">
+	<h2 class="titulo">Demo/ Archivos / CargaFTP</h2>
+	<div class="row borde-bajo">
+		<h5 class="subtitulo">Datos Básicos</h5>
+		<label id="lblMensaje" class="mensaje"></label>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<div class="form-group">
+		    <label for="txtRazonSocial">Razón Social</label>
+		    <input type="text" class="form-control" id="txtRazonSocial">
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="form-group">
+		    <label for="txtRuc">RUC</label>
+		    <input type="text" class="form-control" id="txtRuc">
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="row borde-bajo">
+		<h5 class="subtitulo">Imágenes adjuntas</h5>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-3">
+		<div class="form-group form-upload">
+		    <label>Imagen 1</label><label id="lblIdImagen1"></label>
+		    <span>
+				<i class="fa fa-file-o" aria-hidden="true" id="triggerInputFile1"></i>
+				<i class="fa fa-upload" aria-hidden="true" id="triggerUploadFile1"></i>
+				<i class="fa fa-picture-o" aria-hidden="true"></i>
+			</span>
+			<span class="oculto">
+				<input type="file" id="inputFile1" name="myFile"/>
+				<button id="uploadFile1">Upload</button><br>
+			</span>
+			<progress id="prog1" value="0" min="0" max="100"></progress>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="form-group form-upload">
+		    <label>Imagen 2</label><label id="lblIdImagen2"></label>
+		    <span>
+				<i class="fa fa-file-o" aria-hidden="true" id="triggerInputFile2"></i>
+				<i class="fa fa-upload" aria-hidden="true" id="triggerUploadFile2"></i>
+				<i class="fa fa-picture-o" aria-hidden="true"></i>
+			</span>
+			<span class="oculto">
+				<input type="file" id="inputFile2" name="myFile"/>
+				<button id="uploadFile2">Upload</button><br>
+			</span>
+			<progress id="prog2" value="0" min="0" max="100"></progress>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="form-group form-upload">
+		    <label>Imagen 3</label><label id="lblIdImagen3"></label>
+		    <span>
+				<i class="fa fa-file-o" aria-hidden="true" id="triggerInputFile3"></i>
+				<i class="fa fa-upload" aria-hidden="true" id="triggerUploadFile3"></i>
+				<i class="fa fa-picture-o" aria-hidden="true"></i>
+			</span>
+			<span class="oculto">
+				<input type="file" id="inputFile3" name="myFile"/>
+				<button id="uploadFile3">Upload</button><br>
+			</span>
+			<progress id="prog3" value="0" min="0" max="100"></progress>
+		</div>
+	</div>
+</div>
+
+<button type="button" class="btn btn-primary boton-app" id="btnGuardarCambios"><i class="fa fa-check" aria-hidden="true"></i>Guardar Cambios</button>
+<!--
 <input type="file" id="myFile" name="myFile"/>
-<button class="btn" id="upload">Upload</button>
-<br>
+<button id="upload">Upload</button><br>
+<input type="text" id="txtNombre" placeholder="nombre"><br>
+<input type="text" id="txtDescripcion" placeholder="descripcion"><br>
 <progress id="prog" value="0" min="0" max="100"></progress>
+-->
